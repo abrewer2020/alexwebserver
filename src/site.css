@@ -1,0 +1,136 @@
+  html {
+    height: 100%;
+  }  
+  body {
+    background-color: #1A1A1D;
+    height: 100%;
+  }
+  h1 {
+    color: whitesmoke;
+    font-family: roboto;
+  }
+  h2 {
+    color: #C3073F;
+    font-family: roboto;
+  }
+  h3 {
+    color: whitesmoke;
+    font-family: roboto;
+  }
+  h4 {
+    color: whitesmoke;
+    font-family: roboto;
+  }
+  p {
+    color: whitesmoke;
+    font-family: roboto;
+  }
+  li {
+    color: whitesmoke;
+    font-family: roboto;
+  }
+  button {
+    color: black;
+    font-family: roboto;
+  }
+  .boxitem {
+    display: flex;
+  }
+  .boxtitle {
+    width: 30%;
+    min-width: 30%;
+    text-align: center;
+    margin:auto;
+  }
+  .boxbody {
+    flex-grow: 1;
+  }
+  .centertext {
+    text-align: center;
+    margin: auto;
+  }
+  .centerdiv {
+    margin: auto;
+    width: 75%;
+  }
+  .hdivider {
+    size: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #950740;
+  }
+  .vdivider {
+    width: 0;
+    size: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #950740;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .section {
+    flex: 1;
+    text-align: center;
+  }
+  .portrait{
+    height: 175px;
+    width: 175px;
+  }
+  .vcentered {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .mainsection {
+    margin-top: 25px;
+  }
+  .mainsectionbody {
+    margin-top: 25px;
+  }
+  .lastsection {
+    margin-bottom: 50px;
+  }
+  .collapsible {
+    background-color: #6F2232;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+  .content {
+    padding: 0 18px;
+    background-color: #4E4E50;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .demophoto {
+    width: 500px;
+    height: 650px;
+  }
+  .loz {
+    width: 500px;
+    height: 500px;
+  }
+  .phonephoto {
+    width: 300px;
+    height: 600px;
+  }
+  .bigtext {
+    font-size: large;
+  }
+  .commandline {
+    width: 600px;
+    height: 350px;
+  }
+  .connectimg {
+    width: 100px;
+    height: 100px;
+  }
+  .spreaddiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
